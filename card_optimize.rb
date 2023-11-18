@@ -82,6 +82,9 @@ class Card
 end
 
 # キャラクターステータス
+# インビジブルさんの下記をそのまま拝借
+# （フェイトの分は除いている）
+# https://x.com/innbijiburu0822/status/1633454393508106243?s=20
 $base_statuses = Statuses.new({
   kougeki_value:   70000,
   kougeki_percent:    15,
